@@ -1,0 +1,70 @@
+
+*
+{
+	padding: 0;
+	margin: 0;
+}
+
+nav
+{
+	display: inline-block;
+	height: 70px;
+	width: 100px;
+	background: gray; 
+}  
+label.logo 
+{
+	 background: url('gedungpic.jpg');
+	 font-size: 20pt;
+	 flood-color: transparent;
+	 font-style: bold;
+}
+nav ul
+{
+	float: left;
+	margin-left: 40px;
+
+}
+nav li
+{
+	display: inline-block;
+	margin: 0 8px;
+	line-height: 80px;
+}
+h1 
+{
+	 color: black;
+	 font-size: 60pt;
+	 font-weight: 50px; 
+	 font-style: bold;
+	 font-family: algerian; 
+	 position: absolute;
+	 left: 320px;
+	 right: 320px;
+
+}
+h2
+{
+	color: lightblue; 
+	font-size: 30pt;
+	font-family: great vibes;
+	font-style: normal;
+	position: absolute; 
+	top: 230px;
+	left: 450px;
+	right: 450px;	
+}
+button
+{
+	background-color: navy;
+	border-radius: 10px; 
+	background-position: center;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	font-size: 12pt; 
+	font-family: verdana; 
+	bottom: 400px;
+	position: center; 
+	
+}
