@@ -1,51 +1,50 @@
-
-*
+body
 {
-	padding: 0;
-	margin: 0;
+	padding: 0px;
+	margin: 0px;
 }
-
-nav
+.navbar
 {
-	display: inline-block;
-	height: 70px;
-	width: 100px;
-	background: gray; 
-}  
-label.logo 
+	display: flex;
+	height: 100px;
+	width: 3000px;
+} 
+.navbar-brand
 {
-	 background: url('gedungpic.jpg');
-	 font-size: 20pt;
-	 flood-color: transparent;
-	 font-style: bold;
+	 background: url('logo planetm.jpg');
 }
-nav ul
-{
-	float: left;
+.navbar-item
+{ 
+	float: left
 	margin-left: 40px;
-
-}
-nav li
-{
 	display: inline-block;
+	text-transform: lowercase;
+}
+
+.navbar-link
+{
+	display: inline-block; 
 	margin: 0 8px;
 	line-height: 80px;
 }
 h1 
 {
-	 color: black;
-	 font-size: 60pt;
-	 font-weight: 50px; 
-	 font-style: bold;
-	 font-family: algerian; 
-	 position: absolute;
-	 left: 320px;
-	 right: 320px;
-
-}
+	margin-top: 130pt;
+	color: black;
+	text-align: center;
+	font-size:70pt;
+	font-weight: 50px; 
+	font-style: bold;
+	font-family: algerian; 
+	position: center;
+	left: 200pt; 
+	right: 200pt;
+} 
 h2
 {
-	color: lightblue; 
+	margin-top: 115pt;
+	color: black; 
+	text-align: center;
 	font-size: 30pt;
 	font-family: great vibes;
 	font-style: normal;
@@ -56,15 +55,32 @@ h2
 }
 button
 {
+	margin-top: 100pt;
 	background-color: navy;
-	border-radius: 10px; 
-	background-position: center;
+	border-radius: 30px; 
 	text-align: center;
 	color: white;
 	cursor: pointer;
-	font-size: 12pt; 
-	font-family: verdana; 
-	bottom: 400px;
-	position: center; 
-	
+	font-size: 15pt; 
+	font-family: sans-serif; 
+	bottom: 1400px;
+	width: 170pt;
+	height: 40pt;
 }
+button
+{
+	margin-top: 120pt;
+	background-color: navy;
+	border-radius: 30px; 
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	font-size: 15pt; 
+	font-family: sans-serif; 
+	bottom: 1400px;
+	width: 170pt;
+	height: 40pt;
+}
+
+
+
