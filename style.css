@@ -67,17 +67,16 @@ button
 	width: 170pt;
 	height: 40pt;
 }
-button
+.btn1
 {
 	margin-top: 120pt;
-	background-color: navy;
+	background-color: lightblue;
 	border-radius: 30px; 
-	text-align: center;
-	color: white;
+	text-align: left;
+	color: black;
 	cursor: pointer;
 	font-size: 15pt; 
 	font-family: sans-serif; 
-	bottom: 1400px;
 	width: 170pt;
 	height: 40pt;
 }
