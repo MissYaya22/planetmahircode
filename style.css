@@ -1,7 +1,9 @@
-body
+*
 {
-	padding: 0px;
-	margin: 0px;
+	background-color: pink;
+	background-size: cover;
+	margin: 0pt;
+	padding: 0pt;
 }
 .navbar
 {
@@ -30,8 +32,8 @@ body
 h1 
 {
 	margin-top: 130pt;
-	color: black;
 	text-align: center;
+	color: black;
 	font-size:70pt;
 	font-weight: 50px; 
 	font-style: bold;
@@ -40,7 +42,7 @@ h1
 	left: 200pt; 
 	right: 200pt;
 } 
-h2
+p
 {
 	margin-top: 115pt;
 	color: black; 
@@ -56,29 +58,53 @@ h2
 button
 {
 	margin-top: 100pt;
-	background-color: navy;
+	background-color: purple;
 	border-radius: 30px; 
 	text-align: center;
 	color: white;
 	cursor: pointer;
-	font-size: 15pt; 
+	font-size: 10pt; 
 	font-family: sans-serif; 
 	bottom: 1400px;
 	width: 170pt;
-	height: 40pt;
+	height: 35pt;	
 }
-.btn1
+.button2
 {
 	margin-top: 120pt;
-	background-color: lightblue;
+	background-color: purple;
 	border-radius: 30px; 
-	text-align: left;
-	color: black;
+	text-align: center;
+	color: white;
 	cursor: pointer;
-	font-size: 15pt; 
+	font-size: 10pt; 
 	font-family: sans-serif; 
 	width: 170pt;
-	height: 40pt;
+	height: 40pt;	
+}
+h2
+{
+
+	margin-top: 100pt;
+	font-size: 25px;
+	font-family: verdana;
+	position: absolute;
+	color: black;
+	margin-top: 100pt;
+	font-style: bold;
+	position: center;
+	text-align: center;
+}
+h3
+{
+	text-align: center;
+	font-size: 30px;
+	font-family: verdana;
+	position: absolute;
+	color: black;
+	margin-top: 120pt;
+	font-style: bold;
+	position: absolute;
 }
 
 
